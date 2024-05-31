@@ -1,0 +1,22 @@
+
+#first{
+    font-size: 30px;
+ justify-content: left;   
+}
+
+body{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image:url('./IMG/BG.jpg') ;
+    align-items: center;
+   
+    padding-top: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-bottom: 0%;
+    color: white;
+    align-content: center;
+    
+    text-align: center;
+  }
+ 

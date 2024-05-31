@@ -1,0 +1,90 @@
+
+
+
+
+
+body{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image:url('./IMG/BG.jpg');
+    background-size: 100%;
+    align-items: center;
+    
+}
+
+
+
+#first{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+h1{
+    font-family: fantasy;
+    text-align: left;
+    margin-left: 50px;
+    color: white;
+    font-size: 200px;
+    text-shadow: black;
+   
+}
+#mySidenav a {
+    position: absolute;
+    right: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 300px;
+    height: 75px;
+    text-decoration: none;
+    font-size: 40px;
+    
+    color: white;
+    border-radius: 0 5px 5px 0;
+    padding-top: 100px;
+    text-align: center;
+  }
+  
+  #mySidenav a:hover {
+    right: 0;
+  }
+  
+  #Games {
+     
+    top: 50px;
+    right: 0%;
+    /* background-color: #04AA6D; */
+    background-color: transparent;
+  }
+  
+  #About {
+    top: 200px;
+    right: 0%;
+    background-color: transparent;
+  }
+  
+  
+  
+  #Help {
+    top: 350px;
+    right: 0%;
+    background-color: transparent;
+  }
+  #Upload {
+    top: 530px;
+    right: 0%;
+    background-color: transparent;
+  }
+  .top-container {
+    width: 100%;
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: opacity 0.3s ease-in-out;
+    opacity: 1;
+}
+.hidden {
+    opacity: 0;
+}
+ 
